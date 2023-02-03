@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+*{
+    box-sizing: border-box
+}
+@font-face {
+  font-family: CursedTimerUlil;
+  src: url(font/CursedTimerUlil-Aznm.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    max-width:570px;
+    margin:20px auto;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    padding:20px
+}
+.container h3{
+    font-size: 40px;
+    margin: 0;
+    margin-bottom:5px;
+}
+.score{
+    background: #080001;
+    border-radius: 4px;
+    width: 150px;
+    height: 120px;
+    padding-top:11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#F94F6D;
+    font-size: 90px;
+    line-height: 1;
+    font-family: CursedTimerUlil;
+}
+.win{
+    outline: 3px solid #F94F6D
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap:8%;
+    margin-top:12px
+}
+.btn{
+    border:2px solid #9AABD8;
+    border-radius:5px;
+    background: transparent;
+    color: #9AABD8;
+    font-size:18px;
+    font-family: CursedTimerUlil;
+    padding:8px;
+    cursor: pointer
+}
+.btn:hover{
+    color: black;
+    background: #9AABD8;
+}
+.restart{
+    margin: auto;
+    display: block;
+    border:none;
+    background: lightgray;
+    border-radius: 8px;
+    padding:9px;
+    
+}
